@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/restaurants"
+	xmlns:tns="http://www.example.org/restaurants" elementFormDefault="qualified">
+	<element name="Service">
+		<complexType>
+			<sequence>
+				<element name="restaurant" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="Name" type="string"/>
+							<element name="Id"/>
+							<element name="Menu">
+								<complexType>
+									<sequence>
+										<element name="Item" maxOccurs="unbounded">
+											<complexType>
+												<sequence>
+													<element name="Name" type="string" />
+													<element name="Price" type="double" />
+												</sequence>
+											</complexType>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
