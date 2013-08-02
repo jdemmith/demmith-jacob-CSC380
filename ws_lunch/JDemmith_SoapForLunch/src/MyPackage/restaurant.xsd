@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://neumont.edu/syergensen/lunch/restaurants" xmlns:soap="http://www.w3.org/2001/12/soap-envelope" xmlns:restaurant="http://neumont.edu/syergensen/lunch/restaurants">
+    <xs:import namespace="http://www.w3.org/2001/12/soap-envelope" schemaLocation="soap-request.xsd"/>
+    <xs:element name="getAllRestaurant">
+        <xs:complexType/>
+    </xs:element>
+</xs:schema>
