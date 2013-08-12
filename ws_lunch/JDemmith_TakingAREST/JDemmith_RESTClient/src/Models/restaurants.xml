@@ -1,0 +1,20 @@
+<Service>
+  <!--1 or more repetitions:-->
+  <Restaurant>
+    <Name>Subway</Name>
+    <!--1 or more repetitions:-->
+    <Item>
+      <Name>Sub</Name>
+    </Item>
+    <Item>
+      <Name>Pizza</Name>
+    </Item>
+  </Restaurant>
+    <Restaurant>
+        <Name>Jimmy John's</Name>
+        <!--1 or more repetitions:-->
+        <Item>
+            <Name>Sub</Name>
+        </Item>
+    </Restaurant>
+</Service>
